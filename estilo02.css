@@ -11,13 +11,25 @@ h1{
     background: #4cef8b;
     font-size: 2.5em;
 }
+p{
+    position: absolute;
+    font-size: 1.5em;
+}
+
+/*CONTIENE*/
+p[title*="dia"]{
+    background-color:#ebff00;
+    font-size: 1.5em;
+}
+
+a{
+ position: absolute;
+    margin: 120px 2px 2px 400px;
+    font-size: 1.5em;
+}
 /*COMIENZA CON*/
 a[href^="http://"]{
-background-color:green;
-}
-/*CONTIENE*/
-p[title*="titulo"]{
-background-color:blue;
+background-color:#fa00d4;
 }
 /*SEPARADOS POR ESPACIO*/
 h1[class~="hola"]{
