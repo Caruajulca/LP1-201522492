@@ -1,6 +1,11 @@
-h1{
-    position: absolute;
-}
 img{
     position: absolute;
+}
+h1{
+    position: absolute;
+    margin: 50px 2px 2px 260px;
+    color: #06fa18;
+    background: #932eea;
+    font-size: 3em;
+
 }
