@@ -7,13 +7,16 @@ img{
     position: absolute;
     margin: 3px 2px 2px 1px;
 }
-h1{
+
+/*SELECTOR HIJO*/
+body>h1{
     position: absolute;
     margin: 50px 2px 2px 260px;
     color: #06fa18;
     background: #932eea;
     font-size: 3em;
 }
+
 /*HERMANO GENERAL*/
 h2 ~p{
      width: 1140px;
@@ -24,12 +27,13 @@ h2 ~p{
     background: rgba(12, 200, 245, 0.72);
 }
 h1 ~h3{
-   position: absolute;
-    margin: 130px 2px 2px 630px;
+    position: absolute;
+    margin: 130px 2px 2px 620px;
     color: #072dfd;
     background: #dcea2e;
     font-size: 2em;
 }
+
 /*HERMANO ADYACENTE*/
 h1+h2{
     position: absolute;
