@@ -31,7 +31,10 @@ a{
 a[href^="http://"]{
 background-color:#fa00d4;
 }
+
 /*SEPARADOS POR ESPACIO*/
-h1[class~="hola"]{
-color: blue;
+h1[class~="visita"]{
+    color: blue;
+    background: white;
+    margin: 250px 2px 2px 800px;
 }
