@@ -1,5 +1,11 @@
+body{
+    background: #aaef80;
+}
 img{
+    width: 1590px;
+    left: 0px;
     position: absolute;
+    margin: 3px 2px 2px 1px;
 }
 h1{
     position: absolute;
@@ -7,5 +13,27 @@ h1{
     color: #06fa18;
     background: #932eea;
     font-size: 3em;
-
 }
+/*HERMANO GENERAL*/
+h2 ~p{
+     width: 1140px;
+    left: 50px;
+    position: absolute;
+    margin: 180px 2px 2px 160px;
+    font-size: 2em;
+    background: rgba(12, 200, 245, 0.72);
+}
+h1 ~h3{
+   position: absolute;
+    margin: 130px 2px 2px 630px;
+    color: #072dfd;
+    background: #dcea2e;
+    font-size: 2em;
+}
+/*HERMANO ADYACENTE*/
+h1+h2{
+    position: absolute;
+    margin: 1130px 2px 2px 1200px;
+    background: #03f71f;
+}
+
