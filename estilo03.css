@@ -1,0 +1,13 @@
+*{
+    background: #130484
+}
+img{
+    width: 490px;
+    left: 20px;
+    position: absolute;
+    margin: 30px 2px 2px 10px;
+}
+#uno{
+    position: absolute;
+    margin: 30px 2px 2px 800px;
+}
