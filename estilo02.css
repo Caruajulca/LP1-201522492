@@ -4,3 +4,22 @@ img{
     position: absolute;
     margin: 3px 2px 2px 1px;
 }
+h1{
+    position: absolute;
+    margin: 50px 2px 2px 20px;
+    color: #fc0a13;
+    background: #4cef8b;
+    font-size: 2.5em;
+}
+/*COMIENZA CON*/
+a[href^="http://"]{
+background-color:green;
+}
+/*CONTIENE*/
+p[title*="titulo"]{
+background-color:blue;
+}
+/*SEPARADOS POR ESPACIO*/
+h1[class~="hola"]{
+color: blue;
+}
